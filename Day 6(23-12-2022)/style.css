@@ -1,0 +1,16 @@
+*{
+    box-sizing: border-box;
+}
+
+.main1{
+    height: 100px;
+    border: 2px solid blue;
+    display: flex;
+    justify-content: space-between;
+    flex-flow: wrap row ;
+}
+
+.boxes {
+    height: 100px;
+    border: 2px solid red;
+}
