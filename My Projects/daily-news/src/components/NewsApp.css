@@ -1,0 +1,55 @@
+.root-div{
+    width: 80%;
+    margin-inline: auto;
+    margin-block: 40px;
+}
+
+.h-not-found{
+    color: #b5b8cb;
+    
+}
+
+.div-main{
+    display: grid;
+    grid-template-columns: repeat(2,48%);
+    justify-content: space-between;
+    row-gap: 20px;
+    display: "grid",
+}
+
+form input{
+ width: 60%;
+ margin-right: 20px;
+ margin-top: 20px ;
+ margin-bottom: 20px;
+ padding: 15px;
+ font-size: 2rem;
+ border-radius: 20px;
+ border: 2px solid #cfcfcf;
+ 
+}
+
+.h-not-found{
+    display: block;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.h2-change{
+    grid-column: 1/span3;
+}
+.submit-btn{
+    margin-bottom: 20px;
+    background-color: #405cf5;
+    border-width: 0;
+    width: 20%;
+    padding: 15px;
+    color: white;
+}
+
+.submit-btn:hover{
+    cursor: pointer;
+    background-color: #1a3aee;
+}
+
+
